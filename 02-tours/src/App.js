@@ -16,7 +16,7 @@ function App() {
         setDataLoaded(true)
     }
 
-    useState(() => {
+    useEffect(() => {
         getTours()
     }, [])
 
